@@ -1,0 +1,40 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.header{
+   width: 100%;
+}
+
+.navbar{
+  background: #353b48;
+  width: 100%;
+  padding:5px;
+  top: 0px;
+  transition: .5s;
+  position: fixed;
+  z-index: 1;
+}
+
+.navbar ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px 40px;
+  /*color: white; */
+  font-size: 20px;
+  margin-top: 11px;
+  font-family: sans-serif;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.navbar ul li:hover{
+  background: orange;
+}
+
+.nav-link{
+  color: white;
+}
