@@ -6,7 +6,10 @@ import { SectionComponent } from './section/section.component';
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
+  {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
+  {path: 'hotel', component: ContactComponent},
+  {path: 'mon_compte', component: ContactComponent},
   {path: 'contact', component: ContactComponent},
   { path: '**', redirectTo: 'home', pathMatch: 'full'},
 ];
